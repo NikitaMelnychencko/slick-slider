@@ -1,0 +1,57 @@
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+
+/* Элемент точки */
+.slider-js {
+  position: relative;
+  padding: 0 60px;
+  min-width: 0;
+}
+
+.slider-js .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 50px;
+  margin-top: -30px;
+}
+
+.slider-js .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-js .slick-dots li {
+  list-style: none;
+  margin: 0 10px 0 10px;
+}
+
+.slider-js .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.slider-js .slick-dots li.slick-active button {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.slider__item {
+  text-align: center;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "slick-slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/NikitaMelnychencko/slick-slider",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /slick-slider/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaMelnychencko/slick-slider.git"
+  },
+  "author": "Nikita Melnychencko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaMelnychencko/slick-slider"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.1",
+    "sass": "^1.39.0"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "jquery": "^3.6.0"
+  }
+}
